@@ -1,65 +1,191 @@
 <!DOCTYPE html>
-<!-- https://htmlpreview.github.io/?https://github.com/kuwann/BSCS-2D-Delin-Angelo-O/blob/d0179267a8f07200d653da04a7b9d83e9ee6cf6c/index.html -->
+
+<!-- https://github.com/kuwann/BSCS-2D-Delin-Angelo-O.git -->
 <html>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-witdh, intial-scale=1.0" />
   <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Angelo O. Delin" />
-    <meta name="viewport" content="width=device-width, initial-scale=1/.0" />
-    <title>Bio Data</title>
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <div>
-      <h1>Introduction</h1>
-      <img
-        src="IMG/452654701_7691746920934399_2608636886523035162_n.jpg"
-        alt="Me as a Drummer"
-        height="200"
-      />
-      <h2>DELIN, ANGELO O.</h2>
-      <h3>BSCS 2D</h3>
-      <h3>DC 101</h3>
-    </div>
+    <main>
+    <div class="menu" id="box">
+    <header>
+      <h1>KAPE NI KUWAN</h1>
+      <p class="established">Established 2024 by Delin</p>
+    </header>
 
-    <hr />
-
-    <div>
-      <h3>About Me</h3>
-      <p>
-        I am Angelo O. Delin, 19 years old<br> 2nd year college in KLL.<br> I live in Marawoy Lipa City, <br>I like to play different kinds of instruments.
-      </p>
-      <ol>
-        <a href="hobbies.html" target="_self"><li>Hobbies</li></a>
-        <a href="skills.html" target="_self"><li>Skills</li></a>
-        <a href="Tools and technology.html" target="_self"><li>Tools and Technology Stack</li></a>
-      </ol>
-    </div>
-
-    <hr>
-
-    <div>
-        <form>
-            <label for="name">Name</label><br />
-            <input type="text" id="name" placeholder="User name" /><br /><br />
-
-            <label for="email">Email</label><br />
-            <input type="email" name="email" id="email"><br /><br />
-
-            <label for="message">Your message</label><br />
-            <textarea name="message"id="message"></textarea><br /><br />
-
-            <label for="country">Country</label>
-            <select id="country">
-              <option value="philippines">Philippines</option>
-              <option value="japan">Japan</option>
-              <option value="america">America</option></select
-            ><br /><br />
+    
+      <hr>
+      <div class="coffeemenu">
+      <h2>COFFEE MENU</h2>
+      </div>
+      <div class="wrapper">
+        <img src="img/logo.jpg" alt="Coffee logo" width="80px">
+      </div>
       
-            <label>Job Type</label><br />
-            <input type="radio" name="jobtype" value="parttime" id="parttime" />
-            <label for="parttime">Part Time</label><br />
-            <input type="radio" name="jobtype" value="fulltime" id="fulltime" />
-            <label for="fulltime">Full Time</label>
-            <br /><br />
-    </div>
+      <section>
+          <article class="product">
+            <div class="coffee">
+              <p>Kopiko Brown</p>
+            </div>
+            <div class="price">
+              <p>39.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="coffee">
+              <p>Kopiko Blanca</p>
+            </div>
+            <div class="price">
+              <p>44.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="coffee">
+              <p>Greate Taste White</p>
+            </div>
+            <div class="price">
+              <p>49.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="coffee">
+              <p>Nescafe Creamy White</p>
+            </div>
+            <div class="price">
+              <p>49.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="coffee">
+              <p>Nescafe Creamy Latte</p>
+            </div>
+            <div class="price">
+              <p>39.00</p>
+            </div>
+          </article>
+          </section>
+          <section>
+            <div class="breadmenu">
+            <h2>BREAD MENU</h2>
+          </div>
+            <div class="wrapper">
+            <img src="/IMG/bread.jpg" alt="Bread Logo" width="85px">
+            </div>
+        <section>
+          <article class="product">
+            <div class="bread">
+              <p>Paborita</p>
+            </div>
+            <div class="price">
+              <p>39.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="bread">
+              <p>Pilipit</p>
+            </div>
+            <div class="price">
+              <p>39.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="bread">
+              <p>Pandesal</p>
+            </div>
+            <div class="price">
+              <p>19.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="bread">
+              <p>Bonete</p>
+            </div>
+            <div class="price">
+              <p>19.00</p>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="bread">
+              <p>Ensaymada</p>
+            </div>
+            <div class="price">
+              <p>29.00</p>
+            </div>
+          </article>
+          </section><hr>
+          <div>
+        
+          <form action="index.html" method="post">
+    
+
+    
+        <h3>Survey Form</h3>
+   
+        <h4>Please fill out this form with required information</h4>
+      
+        <label for="firstname">Enter Your First Name:</label><br>
+        <input type="text" id="firstname" class="input" required><br>
+        <label for="lastname">Enter Your Last Name:</label><br>
+        <input type="text" id="lastname" class="input" required><br>
+        <label for="email">Enter Your Email:</label><br>
+        <input type="email" id="email" required placeholder="@gmail.com" class="input"><br>
+        <label for="password">Create a New Password:</label><br>
+        <input type="password" id="password" class="input" required><br>
+
+        <hr>
+
+        <label for="acctype">Account type (required)</label><br>
+        
+        <input type="radio" name="Account type" id="personal" value="personal" required>
+        <label for="personal">Personal</label><br>
+        <input type="radio" name="Account type" id="business" value="business" required>
+        <label for="business">Business</label><br>
+
+        <hr>
+
+        <label for="pfp">Upload a profile picture:</label><br>
+        <input type="file" id="Upload a profile picture" class="input" accept="png" required><br>
+        <label for="age" >Input your age (years):</label><br>
+        <input type="number" name="Input your age (years)" id="age"class="input" min="0" max="99" required><br>
+        <label for="about">How did you hear about us?:</label><br>
+        <select name="How did you hear about us?" id="about" class="input" required>
+            <option value="" disable selected hidden>(select one)</option>
+            <option value="Television">Television</option>
+            <option value="Poster">Poster</option>
+            <option value="Internet">Internet</option>
+            <option value="News">News</option>
+        </select><br>
+        <label for="bio">Provide a bio:</label><br>
+        <textarea name="Provide a bio" id="bio" placeholder="I like the product..." class="input" required></textarea><br>
+
+        <footer>
+
+          <input type="checkbox" name="I accept the terms and conditions" required>
+        <label for="accept">I accept the terms and conditions.</label><br>
+   
+    <input type="submit" class="submit"/>
+         </footer>
+    </form>
+  </main>
+  
   </body>
+</div>
 </html>

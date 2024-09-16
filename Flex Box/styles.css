@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #fd4556;
+}
+.container {    
+  display: flex;
+  height: 500px;
+  width: 800px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 200px;
+  box-shadow: 15px 15px black;
+}
+.form h1 {
+  font-size: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 50px;
+}
+.form a {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: gray;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  padding: 0 9px;
+  margin: 1px;
+  margin-top: 5px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.box {
+  padding: 10px;
+  width: 50%;
+  margin: 5px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 0;
+  border-color: #fd4556;
+}
+#submit {
+  padding: 10px 25px;
+  width: 40%;
+  height: 8%;
+  margin-top: 5px;
+  background-color: #bd3944;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+#submit:hover {
+  cursor: pointer;
+  background-color: #fd4556;
+}
+a:after {
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -2px;
+  transition: 0.3s;
+}
+a:hover {
+  color: rgb(241, 116, 116);
+}
+a:hover::after {
+  cursor: pointer;
+  width: 100%;
+}
+.leftcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(110, 238, 255);
+}
+.leftcontainer img{
+    width: 280px;
+    height: auto;
+}
+

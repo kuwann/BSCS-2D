@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    background-color: #fd4556;
+body {
+  
+  background-color: #fd4556;
 }
-.container {    
+.container {
   display: flex;
   height: 500px;
   width: 800px;
@@ -14,6 +15,10 @@ body{
   margin: auto;
   margin-top: 200px;
   box-shadow: 15px 15px black;
+}
+.left{
+  display: flex;
+  width: 800px;
 }
 .form h1 {
   font-size: 3rem;
@@ -35,7 +40,7 @@ body{
 .form {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   align-items: center;
   background-color: whitesmoke;
 }
@@ -79,15 +84,16 @@ a:hover::after {
   cursor: pointer;
   width: 100%;
 }
-.leftcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background-color: rgb(110, 238, 255);
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(110, 238, 255);
+  margin: auto;
+ 
 }
-.leftcontainer img{
-    width: 280px;
-    height: auto;
+.right img {
+  width: 280px;
+  height: auto;
 }
-
